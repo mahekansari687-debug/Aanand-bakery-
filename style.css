@@ -766,6 +766,18 @@ nav ul li a:hover::after{
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:30px;
 }
+/*====================================
+      MOBILE 2 PRODUCTS
+====================================*/
+
+@media (max-width:768px){
+
+    .product-container{
+        grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+        gap:10px !important;
+    }
+
+}
 
 /*====================================
           PRODUCT CARD
