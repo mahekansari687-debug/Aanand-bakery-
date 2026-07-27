@@ -1974,8 +1974,11 @@ nav ul li a:hover::after{
 
     .product-card select{
         width:90%;
-        height:34px;
+        height:40px;
+        padding:0 32px 0 10px;
         font-size:13px;
+        line-height:40px;
+        box-sizing:border-box;
         margin:4px auto;
     }
 
