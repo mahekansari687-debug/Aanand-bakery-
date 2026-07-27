@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanand Bakery | Fresh Cakes & Bakery Items</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ===== LOADER ===== -->
+<div id="loader">
+    <div class="loader-logo">Aanand Bakery</div>
+</div>
+
+<!-- ===== TOP BAR ===== -->
+
+<div class="top-bar">
+
+    <span>🚚 Free Delivery Above ₹299</span>
+
+    <span>📍 We Deliver Only Within 3 km</span>
+
+    <span>⚡ Same Day Delivery Available</span>
+
+</div>
+
+<!-- ===== HEADER ===== -->
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-cake-candles"></i>
+
+<h2>Aanand Bakery </h2>
+
+</div>
+
+<button id="viewCart">🛒 Cart (0)</button>
+<nav>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#cakes">Cakes</a></li>
+
+<li><a href="#pastries">Pastries</a></li>
+
+<li><a href="#cookies">Cookies</a></li>
+
+<li><a href="#bakery">Bakery</a></li>
+
+<li><a href="#reviews">Reviews</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<div class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>Freshly Baked Happiness Every Day 🍰</h1>
+
+<p>
+
+Delicious Cakes, Pastries, Cookies & Bakery Items
+
+made with love for every celebration.
+
+</p>
+
+<a href="#cakes" class="btn">
+
+Explore Menu
+
+</a>
+
+<a href="https://wa.me/918882251977"
+
+class="btn2">
+
+Order on WhatsApp
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (4).jpeg" alt="Bakery">
+
+</div>
+
+</section>
+
+<!-- ===== SEARCH ===== -->
+ 
+<section class="search-section">
+
+<input type="text"
+
+id="searchInput"
+
+placeholder="Search Cakes, Cookies, Pastries...">
+
+</section>
+<!-- ===== ABOUT SECTION ===== -->
+
+<section class="about" id="about">
+
+    <div class="section-title">
+        <h2>About Aanand Bakery</h2>
+        <p>Freshness, Quality & Happiness in Every Bite ❤️</p>
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="cakes/shop.jpeg" alt="Aanand Bakery">
+        </div>
+
+        <div class="about-content">
+
+            <h3>Welcome to Aanand Bakery</h3>
+
+            <p>
+                Aanand Bakery is your trusted bakery for fresh cakes,
+                pastries, cookies and bakery products. Every item is
+                prepared with premium ingredients to make your special
+                moments sweeter.
+            </p>
+
+            <p>
+                We provide delicious birthday cakes, customised cakes,
+                snacks and bakery items at affordable prices with
+                same-day delivery in Nashik Road.
+            </p>
+
+            <div class="about-features">
+
+                <div class="feature">
+                    🎂 Fresh Cakes Daily
+                </div>
+
+                <div class="feature">
+                    🚚 Free Delivery Above ₹299
+                </div>
+
+                <div class="feature">
+                    📍 We Deliver Only Within 3 km
+                </div>
+
+                <div class="feature">
+                    ⚡ Same Day Delivery
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== CATEGORY FILTER ===== -->
+
+<section class="category-filter">
+
+    <div class="section-title">
+        <h2>Our Categories</h2>
+        <p>Select your favourite category</p>
+    </div>
+
+    <div class="filter-buttons">
+
+        <button class="filter-btn active" data-filter="all">All</button>
+
+        <button class="filter-btn" data-filter="cakes">🎂 Cakes</button>
+
+        <button class="filter-btn" data-filter="pastries">🧁 Pastries</button>
+
+        <button class="filter-btn" data-filter="cookies">🍪 Cookies</button>
+
+        <button class="filter-btn" data-filter="bakery">🥐 Bakery</button>
+
+    </div>
+
+</section>
+
+<!-- ===== CAKES SECTION ===== -->
+
+<section class="products" id="cakes">
+
+    <div class="section-title">
+        <h2>Fresh Cakes</h2>
+        <p>Choose your favourite cake</p>
+    </div>
+
+    <div class="product-container">
+
+        <!-- Product 1 -->
+
+        <div class="product-card cakes">
+
+            <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.46 AM (1).jpeg" alt="Chocolate Truffle Cake" loading="lazy">
+
+            <h3>Chocolate Truffle Cake</h3>
+
+            <select class="cake-weight">
+    <option value="500g - ₹450">500g (Half Kg) - ₹450</option>
+    <option value="1 Kg - ₹900">1 Kg - ₹900</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+            
+
+        </div>
+
+        <!-- Product 2 -->
+
+        <div class="product-card cakes">
+
+            <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.46 AM.jpeg" alt="Black Forest" loading="lazy">
+
+            <h3>Black Forest Cake</h3>
+
+            <select class="cake-weight">
+    <option value="500g - ₹280">500g (Half Kg) - ₹280</option>
+    <option value="1 Kg - ₹560">1 Kg - ₹560</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+        
+<!-- Product 3 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.45 AM (1).jpeg" alt="Mango Cake" loading="lazy">
+
+    <h3>Mango Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹280">500g (Half Kg) - ₹280</option>
+    <option value="1 Kg - ₹560">1 Kg - ₹560</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+</div>
+
+<!-- Product 4 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (5).jpeg" alt="Strawberry Cake" loading="lazy">
+
+    <h3>Strawberry Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹280">500g (Half Kg) - ₹280</option>
+    <option value="1 Kg - ₹560">1 Kg - ₹560</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+
+</div>
+
+<!-- Product 5 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (33).jpeg" alt="Pineapple Cake" loading="lazy">
+
+    <h3>Pineapple Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹280">500g (Half Kg) - ₹280</option>
+    <option value="1 Kg - ₹560">1 Kg - ₹560</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+
+</div>
+
+<!-- Product 6 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.47 AM (1).jpeg" alt="Butterscotch Cake" loading="lazy">
+
+    <h3>Butterscotch Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹280">500g (Half Kg) - ₹280</option>
+    <option value="1 Kg - ₹560">1 Kg - ₹560</option>
+</select>
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+
+</div>
+
+<!-- Product 7 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.45 AM.jpeg" alt="White Forest Cake" loading="lazy">
+
+    <h3>White Forest Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹280">500g (Half Kg) - ₹280</option>
+    <option value="1 Kg - ₹560">1 Kg - ₹560</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+</div>
+<!-- Product 8 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (16).jpeg" alt="Blueberry Cake" loading="lazy">
+
+    <h3>Blueberry Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹300">500g (Half Kg) - ₹300</option>
+    <option value="1 Kg - ₹600">1 Kg - ₹600</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+</div>
+
+<!-- Product 9 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.47 AM.jpeg" alt="Chips Truffle Cake" loading="lazy">
+
+    <h3>Chips Truffle Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹300">500g (Half Kg) - ₹300</option>
+    <option value="1 Kg - ₹600">1 Kg - ₹600</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+
+</div>
+
+<!-- Product 10 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (30).jpeg" alt="Milk Chocolate Cake" loading="lazy">
+
+    <h3>Milk Chocolate Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹300">500g (Half Kg) - ₹300</option>
+    <option value="1 Kg - ₹600">1 Kg - ₹600</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+
+</div>
+
+<!-- Product 11 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.44 AM.jpeg" alt="Mix Fruit Cake" loading="lazy">
+
+    <h3>Mix Fruit Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹350">500g (Half Kg) - ₹350</option>
+    <option value="1 Kg - ₹700">1 Kg - ₹700</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+</div>
+
+<!-- Product 12 -->
+
+<div class="product-card cakes">
+
+    <img src="images/heart-cake.jpg" alt="Royal Chocolate Cake" loading="lazy">
+
+    <h3>Royal Chocolate Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹300">500g (Half Kg) - ₹300</option>
+    <option value="1 Kg - ₹600">1 Kg - ₹600</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+
+</div>
+
+<!-- Product 13 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (35).jpeg" alt="Rasmalai Cake" loading="lazy">
+
+    <h3>Rasmalai Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹350">500g (Half Kg) - ₹350</option>
+    <option value="1 Kg - ₹700">1 Kg - ₹700</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+
+</div>
+
+<!-- Product 14 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (12).jpeg" alt="Almond Chocolate Cake" loading="lazy">
+
+    <h3>Almond Chocolate Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹350">500g (Half Kg) - ₹350</option>
+    <option value="1 Kg - ₹700">1 Kg - ₹700</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+</div>
+
+<!-- Product 15 -->
+
+<div class="product-card cakes">
+
+    <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (31).jpeg" alt="Oreo Chocolate Cake" loading="lazy">
+
+    <h3>Oreo Chocolate Cake</h3>
+
+    <select class="cake-weight">
+    <option value="500g - ₹350">500g (Half Kg) - ₹350</option>
+    <option value="1 Kg - ₹700">1 Kg - ₹700</option>
+</select>
+
+
+<button class="cart-btn">🛒 Add to Cart</button>
+
+    
+</div>
+
+    </div>
+
+</section>
+<!-- =========================
+        PASTRIES SECTION
+========================= -->
+
+<section class="products" id="pastries">
+
+    <div class="section-title">
+        <h2>Fresh Pastries</h2>
+        <p>Soft, Creamy & Freshly Prepared Every Day</p>
+    </div>
+
+    <div class="product-container">
+
+        <!-- Product 1 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (13).jpeg" alt="Black Forest Pastry" loading="lazy">
+
+            <h3>Black Forest Pastry</h3>
+
+            <p class="price">₹50</p>
+               
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+        <!-- Product 2 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (8).jpeg" alt="White Forest Pastry" loading="lazy">
+
+            <h3>White Forest Pastry</h3>
+
+            <p class="price">₹50</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        <!-- Product 3 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-27 at 4.21.43 PM.jpeg" alt="Chips Truffle Pastry" loading="lazy">
+
+            <h3>Chips Truffle Pastry</h3>
+
+            <p class="price">₹50</p>
+        
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        <!-- Product 4 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (1).jpeg" alt="Royal Chocolate Pastry" loading="lazy">
+
+            <h3>Royal Chocolate Pastry</h3>
+
+            <p class="price">₹50</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+        <!-- Product 5 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (11).jpeg" alt="Almond Chocolate Pastry" loading="lazy">
+
+            <h3>Almond Chocolate Pastry</h3>
+
+            <p class="price">₹50</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+        <!-- Product 6 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (15).jpeg" alt="Blueberry Pastry" loading="lazy">
+
+            <h3>Blueberry Pastry</h3>
+
+            <p class="price">₹50</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+        <!-- Product 7 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (29).jpeg" alt="Milk Chocolate Pastry" loading="lazy">
+
+            <h3>Milk Chocolate Pastry</h3>
+
+            <p class="price">₹50</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+        <!-- Product 8 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (34).jpeg" alt="Rasmalai Pastry" loading="lazy">
+
+            <h3>Rasmalai Pastry</h3>
+
+            <p class="price">₹50</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+        <!-- Product 9 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (6).jpeg" alt="Truffle Chocolate Pastry" loading="lazy">
+
+            <h3>Truffle Chocolate Pastry</h3>
+
+            <p class="price">₹70</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+        <!-- Product 10 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (17).jpeg" alt="Butterscotch Pastry" loading="lazy">
+
+            <h3>Butterscotch Pastry</h3>
+
+            <p class="price">₹50</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        <!-- Product 11 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-27 at 4.21.45 PM.jpeg" alt="Oreo Chocolate Pastry" loading="lazy">
+
+            <h3>Oreo Chocolate Pastry</h3>
+
+            <p class="price">₹60</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+        
+        
+
+        </div>
+         
+
+                <!-- Product 12 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-27 at 4.21.44 PM.jpeg" alt="Butterscotch Ribbon Pastry" loading="lazy">
+
+            <h3>Butterscotch Ribbon Pastry</h3>
+
+            <p class="price">₹60</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+   
+
+        <!-- Product 13 -->
+
+        <div class="product-card pastries">
+
+            <img src="images/fresh-fruit-pastry.jpg" alt="Blueberry Cheese Mousse" loading="lazy">
+
+            <h3>Blueberry Cheese Mousse</h3>
+
+            <p class="price">₹80</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        
+
+        <!-- Product 14 -->
+
+        <div class="product-card pastries">
+
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (21).jpeg" alt="Chocolate Mousse" loading="lazy">
+
+            <h3>Chocolate Mousse</h3>
+
+            <p class="price">₹40</p>
+            
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+        COOKIES SECTION
+========================= -->
+
+<section class="products" id="cookies">
+
+    <div class="section-title">
+        <h2>Fresh Cookies</h2>
+        <p>Crispy, Delicious & Freshly Baked Every Day 🍪</p>
+    </div>
+
+    <div class="product-container">
+
+        <!-- Product 1 -->
+        <div class="product-card cookies">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (20).jpeg" alt="Choco Chips Cookies" loading="lazy">
+            <h3>Choco Chips Cookies</h3>
+            <select class="cake-weight">
+    <option value="250g - ₹90">250g - ₹90</option>
+    <option value="500g - ₹180">500g - ₹180</option>
+    <option value="1 Kg - ₹360">1 Kg - ₹360</option>
+</select>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card cookies">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (2).jpeg" alt="Sesame Cookies" loading="lazy">
+            <h3>Sesame Cookies</h3>
+            <select class="cake-weight">
+    <option value="250g - ₹90">250g - ₹90</option>
+    <option value="500g - ₹180">500g - ₹180</option>
+    <option value="1 Kg - ₹360">1 Kg - ₹360</option>
+</select>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card cookies">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (23).jpeg" alt="Coconut Cookies" loading="lazy">
+            <h3>Coconut Cookies</h3>
+            <select class="cake-weight">
+    <option value="250g - ₹90">250g - ₹90</option>
+    <option value="500g - ₹180">500g - ₹180</option>
+    <option value="1 Kg - ₹360">1 Kg - ₹360</option>
+</select>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card cookies">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (14).jpeg" alt="Black Forest Cookies" loading="lazy">
+            <h3>Black Forest Cookies</h3>
+            <select class="cake-weight">
+    <option value="250g - ₹90">250g - ₹90</option>
+    <option value="500g - ₹180">500g - ₹180</option>
+    <option value="1 Kg - ₹360">1 Kg - ₹360</option>
+</select>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card cookies">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (10).jpeg" alt="Almond Cookies" loading="lazy">
+            <h3>Almond Cookies</h3> 
+            <select class="cake-weight">
+    <option value="250g - ₹90">250g - ₹90</option>
+    <option value="500g - ₹180">500g - ₹180</option>
+    <option value="1 Kg - ₹360">1 Kg - ₹360</option>
+</select>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+
+            
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+        BAKERY ITEMS SECTION
+========================= -->
+
+<section class="products" id="bakery">
+
+    <div class="section-title">
+        <h2>Fresh Bakery Items</h2>
+        <p>Freshly Baked Every Day 🥐</p>
+    </div>
+
+    <div class="product-container">
+
+        <!-- Cheese Khari -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (19).jpeg" alt="Cheese Khari" loading="lazy">
+            <h3>Cheese Khari</h3>
+            <p class="price" data-price="45">200g - ₹45</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Maska Khari  -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (27).jpeg" alt="Maska Khari" loading="lazy">
+            <h3>Maska Khari</h3>
+            <p class="price" data-price="45">200g - ₹45</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Jeera Butter -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (9).jpeg" alt="Jeera Butter" loading="lazy">
+            <h3>Jeera Butter</h3>
+            <p class="price" data-price="45">200g - ₹45</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Cheese Butter -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (18).jpeg" alt="Cheese Butter" loading="lazy">
+            <h3>Cheese Butter</h3>
+            <p class="price" data-price="45">200g - ₹45</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Maska Butter -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (26).jpeg" alt="Maska Butter" loading="lazy">
+            <h3>Maska Butter</h3>
+            <p class="price" data-price="45">200g - ₹45</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Fruit Toast -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (25).jpeg" alt="Fruit Toast" loading="lazy">
+            <h3>Fruit Toast</h3>
+            <p class="price" data-price="40">200g - ₹40</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Mawa Toast -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (28).jpeg" alt="Mawa Toast" loading="lazy">
+            <h3>Mawa Toast</h3>
+            <p class="price" data-price="45">250g - ₹45</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Chocolate Toast -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (22).jpeg" alt="Chocolate Toast" loading="lazy">
+            <h3>Chocolate Toast</h3>
+            <p class="price" data-price="45">200g - ₹45</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Rava Toast -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (28).jpeg" alt="Rava Toast" loading="lazy">
+            <h3>Rava Toast</h3>
+            <p class="price" data-price="90">500g - ₹90</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- White Bread -->
+        <div class="product-card bakery">
+            <img src="images/rusk-toast.jpg" alt="White Bread" loading="lazy">
+            <h3>White Bread</h3>
+            <p class="price" data-price="35">₹35</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Pav -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-27 at 12.10.44 AM (1).jpeg" alt="Pav" loading="lazy">
+            <h3>Pav</h3>
+            <p class="price" data-price="35">₹35 / 12 pcs</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+        <!-- Cream Roll -->
+        <div class="product-card bakery">
+            <img src="cakes/WhatsApp Image 2026-07-23 at 12.39.28 PM (24).jpeg" alt="Cream Roll" loading="lazy">
+            <h3>Cream Roll</h3>
+            <p class="price" data-price="50">₹50 / 6 pcs</p>
+
+
+            <button class="cart-btn">🛒 Add to Cart</button>
+            
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+      CUSTOMER REVIEWS
+========================= -->
+
+<section class="reviews" id="reviews">
+
+    <div class="section-title">
+        <h2>Our Happy Customers</h2>
+        <p>Trusted by Thousands of Customers ❤️</p>
+    </div>
+
+    <!-- Rating Summary -->
+
+    <div class="rating-summary">
+
+        <h3>⭐ 4.9 / 5 Rating</h3>
+
+        <p>Based on 5000+ Happy Customers</p>
+
+    </div>
+
+    <div class="review-container">
+
+        <!-- Review 1 -->
+
+        <div class="review-card">
+
+            <img src="images/customer1.jpg" alt="Customer" >
+
+            <h3>Rahul Sharma</h3>
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                Amazing quality and very fresh cake.
+                Delivery was on time. Highly recommended!
+            </p>
+
+        </div>
+
+        <!-- Review 2 -->
+
+        <div class="review-card">
+
+            <img src="images/customer2.jpg" alt="Customer">
+
+            <h3>Priya Verma</h3>
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                The pastries were super soft and delicious.
+                Will definitely order again.
+            </p>
+
+        </div>
+
+        <!-- Review 3 -->
+
+        <div class="review-card">
+
+            <img src="images/customer3.jpg" alt="Customer">
+
+            <h3>Amit Patel</h3>
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                Best bakery in Nashik Road.
+                Great service and affordable prices.
+            </p>
+
+        </div>
+
+        <!-- Review 4 -->
+
+        <div class="review-card">
+
+            <img src="images/customer4.jpg" alt="Customer">
+
+            <h3>Sneha Joshi</h3>
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                Ordered a birthday cake and everyone loved it.
+                Beautiful design and amazing taste.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+      CONTACT SECTION
+========================= -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>We'd Love To Serve You ❤️</p>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Contact Details -->
+
+        <div class="contact-info">
+
+            <h3>Aanand Bakery</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i>
+            Ghoti-Sinnar Highway, Sakur Phata, Near Tulja Hotel, Nashik Road, Maharashtra</p>
+
+            <p><i class="fa-solid fa-phone"></i>
+            +91 8882251977</p>
+
+            <p><i class="fa-solid fa-envelope"></i>
+            munaf888m@gmail.com</p>
+
+            <p><i class="fa-solid fa-clock"></i>
+            Open Daily: 9:00 AM – 10:00 PM</p>
+
+            <hr>
+
+            <h4>🚚 Delivery Information</h4>
+             <ul>
+                <li>Delivery charges - ₹30</li>
+                <li>Free Delivery Above ₹299</li>
+                <li>We Deliver Only Within 3 km</li>
+                <li>Same Day Delivery Available</li>
+            </ul>
+
+            <a href="https://wa.me/918882251977"
+               class="btn">
+               Order on WhatsApp
+            </a>
+
+        </div>
+
+        <!-- Contact Form -->
+
+        <div class="contact-form">
+
+            <form>
+
+                <input
+                type="text"
+                placeholder="Your Name"
+                required>
+
+                <input
+                type="tel"
+                placeholder="Mobile Number"
+                required>
+
+                <input
+                type="email"
+                placeholder="Email Address">
+
+                <textarea
+                rows="6"
+                placeholder="Write Your Message..."
+                required></textarea>
+
+                <button type="submit"
+                class="btn">
+                Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- About -->
+
+        <div class="footer-box">
+
+            <h3>Aanand Bakery</h3>
+
+            <p>
+                Fresh Cakes, Pastries, Cookies &
+                Bakery Items made with love.
+                Serving happiness every day.
+            </p>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#cakes">Cakes</a>
+            <a href="#pastries">Pastries</a>
+            <a href="#cookies">Cookies</a>
+            <a href="#bakery">Bakery</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Ghoti-Sinnar Highway, Sakur Phata, Near Tulja Hotel, Nashik Road, Maharashtra</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 8882251977</p>
+
+            <p><i class="fa-solid fa-envelope"></i> munaf888m@gmail.com</p>
+
+            <p>🚚 Delivery charges - ₹30</p>
+
+            <p>Free Delivery Above ₹299</p>
+
+        </div>
+
+        <!-- Social -->
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Aanand Bakery.
+            All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- Floating WhatsApp -->
+
+<a href="https://wa.me/918882251977"
+   class="floating-whatsapp"
+   target="_blank">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+<!-- Back To Top -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- ====================================
+            CART POPUP
+==================================== -->
+
+<div id="cartModal" class="cart-modal">
+
+    <div class="cart-content">
+
+        <span id="closeCart">&times;</span>
+
+        <h2>Your Cart 🛒</h2>
+
+        <!-- Yaha cart ke products show honge -->
+        <div id="cartItems"></div>
+        <div class="cart-summary">
+
+            <p>Subtotal : <span id="subTotal">₹0</span></p>
+
+            <p>Delivery Charges : <span id="deliveryCharge">₹0</span></p>
+ 
+            <h3>Grand Total : <span id="grandTotal">₹0</span></h3>
+
+            <p id="deliveryText">🚚 FREE Delivery Above ₹299</p>
+
+        </div>
+
+        <button id="orderCart">
+            📦 Order on WhatsApp
+        </button>
+        <!-- Clear Cart Button -->
+        <button id="clearCart">
+            🗑️ Clear Cart
+        </button>
+
+    </div>
+</div>
+<!--====================================
+        TOAST NOTIFICATION
+=====================================-->
+
+<div id="toast"></div>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
