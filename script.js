@@ -682,17 +682,6 @@ clearCart.addEventListener("click",()=>{
 
     }
 
-    // Confirmation
-
-    const confirmClear =
-    confirm("Are you sure you want to clear the cart?");
-
-    if(!confirmClear){
-
-        return;
-
-    }
-
     // Cart Empty
     cart = [];
 
