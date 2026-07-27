@@ -1767,62 +1767,36 @@ nav ul li a:hover::after{
         gap: 10px;
     }
 }
-/*====================================
-    EXTRA SMALL DEVICES (320px-480px)
-====================================*/
 @media (max-width:480px){
 
-.product-container{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:10px;
-    padding:10px;
-}
+    .product-card img{
+        height:170px;
+    }
 
-.product-card{
-    width:100%;
-    margin:0;
-    border-radius:12px;
-}
+    .product-card h3{
+        font-size:14px;
+        margin:8px 4px 2px;
+        min-height:auto;
+    }
 
-.product-card img{
-    height:120px;
-    object-fit:cover;
-}
+    .product-card .price{
+        font-size:13px;
+        margin:2px 0;
+    }
 
-.product-card h3{
-    font-size:13px;
-    line-height:18px;
-    margin:8px 5px 4px;
-    min-height:36px;
-}
+    .cake-weight{
+        width:96%;
+        margin:4px auto;
+        padding:6px;
+        font-size:12px;
+    }
 
-.price,
-.total-price{
-    font-size:14px;
-    font-weight:700;
-    margin:4px 0;
-}
-
-.cake-weight{
-    width:92%;
-    font-size:11px;
-    padding:6px;
-    margin:10px auto;
-}
-
-.cart-btn,
-.order-btn{
-    width:92%;
-    font-size:12px;
-    padding:8px;
-    margin:6px auto;
-}
-
-.quantity-box{
-    transform:scale(.85);
-    margin:4px auto;
-}
+    .cart-btn{
+        width:96%;
+        margin:6px auto 10px;
+        padding:8px;
+        font-size:12px;
+    }
 
 }
 /*====================================
