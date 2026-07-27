@@ -676,7 +676,7 @@ clearCart.addEventListener("click",()=>{
 
     if(cart.length===0){
 
-        alert("Cart is already empty.");
+        showToast("Your cart is already empty");
 
         return;
 
