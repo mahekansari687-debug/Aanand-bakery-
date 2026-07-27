@@ -475,43 +475,43 @@ nav ul li a:hover::after{
 
     }
 
-}
-.product-card{
-    border-radius: 12px;
-}
+    .product-card{
+        border-radius: 12px;
+    }
 
-.product-card img{
-    height: 150px;   /* Image badi */
-}
+    .product-card img{
+        height: 150px;   /* Image badi */
+    }
 
-.product-card h3{
-    font-size: 16px;
-    line-height: 1.2;
-    margin: 8px 6px;
-    min-height: 38px;
-}
+    .product-card h3{
+        font-size: 16px;
+        line-height: 1.2;
+        margin: 8px 6px;
+        min-height: 38px;
+    }
 
-.price{
-    font-size: 16px;
-    font-weight: 700;
-    margin: 6px 0;
-}
+    .price{
+        font-size: 16px;
+        font-weight: 700;
+        margin: 6px 0;
+    }
 
-.cake-weight{
-    font-size: 13px;
-    padding: 8px;
-    margin: 6px;
-}
+    .cake-weight{
+        font-size: 13px;
+        padding: 8px;
+        margin: 6px;
+    }
 
-.cart-btn{
-    font-size: 14px;
-    padding: 10px;
-    margin: 6px;
-}
+    .cart-btn{
+        font-size: 14px;
+        padding: 10px;
+        margin: 6px;
+    }
 
-.product-card .badge{
-    font-size: 13px;
-    padding: 6px 12px;
+    .product-card .badge{
+        font-size: 13px;
+        padding: 6px 12px;
+    }
 }
 /*====================================
             HERO SECTION
