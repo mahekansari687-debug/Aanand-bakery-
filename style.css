@@ -429,34 +429,6 @@ nav ul li a:hover::after{
 
     }
 
-    /*====================================
-       MOBILE HEADER BUTTONS
-    ====================================*/
-
-    #viewCart{
-
-        min-width:auto;
-
-        margin:5px;
-
-        padding:8px 12px;
-
-        font-size:13px;
-
-    }
-
-    #orderCart{
-
-        min-width:auto;
-
-        margin:5px;
-
-        padding:8px 12px;
-
-        font-size:13px;
-
-    }
-
 }
 
 /*====================================
@@ -502,39 +474,6 @@ nav ul li a:hover::after{
         padding:15px;
 
     }
-
-    /*====================================
-       EXTRA SMALL MOBILE
-    ====================================*/
-
-    header{
-
-        flex-wrap:wrap;
-
-        gap:10px;
-
-    }
-
-    .logo{
-
-        width:100%;
-
-        justify-content:center;
-
-    }
-
-    #viewCart,
-    #orderCart{
-
-        width:100%;
-
-        margin:5px 0;
-
-        justify-content:center;
-
-    }
-
-         
 
 }
 /*====================================
@@ -675,239 +614,6 @@ nav ul li a:hover::after{
         max-width:100%;
     }
 
-    /*====================================
-     HERO MOBILE BUTTONS
-    ====================================*/
-
-    .hero{
-
-        gap:35px;
-
-    }
-
-    .hero-content .btn,
-    .hero-content .btn2{
-
-        display:block;
-
-        width:100%;
-
-        margin:12px 0;
-
-        text-align:center;
-
-    }
-
-    .hero-content{
-
-        text-align:center;
-
-    }
-
-    .hero-image{
-
-        margin-top:15px;
-
-    } 
-    
-    /*====================================
-       CART POPUP MOBILE
-    ====================================*/
-
-    .cart-content{
-
-        width:95%;
-
-        max-height:85vh;
-
-        padding:20px;
-
-        border-radius:15px;
-
-        overflow-y:auto;
-
-    }
-
-    #cartItems{
-
-        max-height:50vh;
-
-        overflow-y:auto;
-
-    }
-
-    .cart-item{
-
-        padding:15px;
-
-    }
-
-    .cart-item h3{
-
-        font-size:18px;
-
-    }
-
-    .cart-item p{
-
-        font-size:14px;
-
-    }
-
-    .cart-qty{
-
-        justify-content:center;
-
-        gap:10px;
-
-    }
-
-    .cart-plus,
-    .cart-minus{
-
-        width:35px;
-
-        height:35px;
-
-        font-size:18px;
-
-    }
-
-    .remove-btn{
-
-        width:100%;
-
-        margin-top:10px;
-
-    }
-    /*====================================
-      STEP 9 : FOOTER & CONTACT MOBILE
-    ====================================*/
-
-    .footer-container{
-
-        grid-template-columns:1fr;
-
-        gap:25px;
-
-        text-align:center;
-
-    }
-
-    .footer-column{
-
-        width:100%;
-
-    }
-
-    .footer-column h3{
-
-        font-size:20px;
-
-    }
-
-    .footer-column p,
-    .footer-column a{
-
-        font-size:15px;
-
-    }
-
-    .contact-container{
-
-        grid-template-columns:1fr;
-
-        gap:20px;
-
-    }
-
-    .contact-info,
-    .contact-map{
-
-        width:100%;
-
-    }
-
-    iframe{
-
-        width:100%;
-
-        height:250px;
-
-        border-radius:12px;
-
-    }
-    /*====================================
-      STEP 10 : FINAL MOBILE POLISH
-    ====================================*/
-
-    /* Section spacing */
-
-    section{
-
-        padding:50px 15px;
-
-    }
-
-    /* Section Heading */
-
-    .section-title h2{
-
-        font-size:28px;
-
-    }
-
-    .section-title p{
-
-        font-size:15px;
-
-    }
-
-    /* Buttons */
-
-    .cart-btn,
-    .order-btn,
-    .btn,
-    .btn2{
-
-        width:100%;
-
-        font-size:16px;
-
-        padding:12px;
-
-    }
-
-    /* Form Fields */
-
-    input,
-    select,
-    textarea{
-
-        width:100%;
-
-        font-size:16px;
-
-    }
-
-    /* Prevent horizontal scroll */
-
-    body{
-
-        overflow-x:hidden;
-
-    }
-
-    /* Long text wrap */
-
-    h1,
-    h2,
-    h3,
-    p{
-
-        word-wrap:break-word;
-
-    }
 }
 /*====================================
             ABOUT SECTION
@@ -933,8 +639,7 @@ nav ul li a:hover::after{
 .about-image img{
     width:100%;
     height:100%;
-    object-fit:contain;
-    background:#fff;
+    object-fit:cover;
     transition:.5s;
 }
 
@@ -1100,27 +805,17 @@ nav ul li a:hover::after{
 
     width:100%;
 
-    height:350px;
+    height:400px;
 
-    object-fit:contain;
-    background:#fff;
-    transition:transform .4s ease;
+    object-fit:cover;
+
+    transition:.4s;
 
 }
 
 .product-card:hover img{
 
     transform:scale(1.08);
-
-    /*====================================
-      MOBILE TAP ZOOM EFFECT
-    ====================================*/
-
-    .product-card:active img{
-
-        transform: scale(1.08);
-
-    }       
 
 }
 
@@ -1256,8 +951,7 @@ nav ul li a:hover::after{
     width:90px;
     height:90px;
     border-radius:50%;
-    object-fit:contain;
-    background:#fff;
+    object-fit:cover;
     margin:0 auto 15px;
     border:4px solid var(--gold);
 }
@@ -1301,8 +995,7 @@ nav ul li a:hover::after{
 .gallery-item img{
     width:100%;
     height:250px;
-    object-fit:contain;
-    background:#fff;
+    object-fit:cover;
     transition:.5s;
 }
 
@@ -1328,60 +1021,6 @@ nav ul li a:hover::after{
 
     .gallery-item img{
         height:220px;
-    }
-    /*====================================
-        PRODUCTS MOBILE
-    ====================================*/
-
-    .product-container{
-
-        grid-template-columns:1fr;
-
-        gap:20px;
-
-    }
-
-    .product-card{
-
-        border-radius:16px;
-
-    }
-
-    .product-card img{
-
-        height:600px;
-
-    }
-
-    .product-card h3{
-
-        font-size:20px;
-
-    }
-
-    .product-card .price{
-
-        font-size:18px;
-
-    }
-
-    .cake-weight{
-
-        width:90%;
-
-        margin:12px auto;
-
-    }
-
-    .cart-btn,
-    .order-btn{
-
-        width:90%;
-
-        margin-left:auto;
-
-        margin-right:auto;
-
     }
 
 }
