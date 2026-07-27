@@ -1981,6 +1981,10 @@ nav ul li a:hover::after{
         box-sizing:border-box;
         margin:4px auto;
     }
+        .product-card select{
+        appearance:auto;
+        -webkit-appearance:menulist;
+    }   
 
     .product-card .cart-btn{
         width:90%;
