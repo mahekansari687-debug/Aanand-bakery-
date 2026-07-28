@@ -1389,12 +1389,9 @@ nav ul li a:hover::after{
 /* ===== Weight Dropdown ===== */
 
 .cake-weight{
-    width: 80%;
-    margin: 10px auto;
-    display: block;
-    text-align: center;
-    text-align-last: center;
-    font-size: 16px;
+    width: 100%;
+    padding: 8px 28px 8px 8px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -1783,15 +1780,12 @@ nav ul li a:hover::after{
         font-size:13px;
         margin:2px 0;
     }
-
     .cake-weight{
         width: 100%;
-        margin: 8px 0;
-        padding: 10px;
-         font-size: 14px;
+        padding: 8px 28px 8px 8px;
+        font-size: 12px;
+        font-weight: 500;
     }
-    
-}
 
     .cart-btn{
         width:96%;
@@ -1834,14 +1828,14 @@ nav ul li a:hover::after{
         font-weight: 700;
         margin: 3px 0;
     }
-
     .cake-weight{
         width: 100%;
-        margin: 8px 0;
-        padding: 10px;
-        font-size: 14px;
+        padding: 8px 28px 8px 8px;
+        font-size: 12px;
+        font-weight: 500;
+    
     }
-}
+
 
     .cart-btn,
     .order-btn{
@@ -1889,9 +1883,9 @@ nav ul li a:hover::after{
     }
     .cake-weight{
         width: 100%;
-        margin: 8px 0;
-        padding: 10px;
-        font-size: 14px;
+        padding: 8px 28px 8px 8px;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     .quantity-box{
